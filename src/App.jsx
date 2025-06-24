@@ -24,9 +24,6 @@ function App() {
 
   return (
     <>
-      <div className="circle-image-container">
-        <img src="/kanji.png" alt="Kanji" className="circle-image" />
-      </div>
       <div className="registro-container" translate="no">
         <div className="brand-title-inside">
           <span className="brand-stranger">stranger</span>
