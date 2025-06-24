@@ -250,16 +250,6 @@ body {
   font-family: 'Times New Roman', Times, serif !important;
 }
 
-.circle-image-container {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.circle-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.toggle-password:active {
+  color: #fff;
 }
