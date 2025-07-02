@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import bgImage from './assets/strangerdrug-bg.jpg'
 
 function App() {
   const [form, setForm] = useState({
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-      <div className="registro-container" translate="no">
+      <div className="registro-container" translate="no" style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat' }}>
         <div className="brand-title-inside">
           <span className="brand-stranger">stranger</span>
           <span className="brand-drug">Drug</span>

@@ -52,6 +52,7 @@ html, body {
 
 body {
   background-image: url('./assets/strangerdrug-bg.jpg');
+  /* Sin imagen de fondo */
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
